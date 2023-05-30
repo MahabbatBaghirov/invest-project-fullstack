@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+.header-div {
+    width: 100%;
+    background-color: #11100E;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+header {
+    width: 90%;
+    /* position: fixed; */
+    /* top: 0; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 0;
+    /* background-color: #11100E; */
+}
+.common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    margin-right: 8px;
+}
+
+.right {
+    display: flex;
+}
+.ul {
+    list-style: none;
+    display: flex;
+}
+.txt {
+    display: flex;
+    flex-direction: column;
+}
+.login-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 1px;
+    height: 15px;
+    background-color: #ffa800;
+    margin-left: 10px;
+}
+.yellow {
+    color: #ffa800;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 0.75;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+.text {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 0.75;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+.blockchain {
+    color: #909090;
+    font-size: 11px;
+    margin-top: -1px;
+    padding-left: 1px;
+}
+
+.dollar {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 21px;
+}
+
+.register {
+    color: #ffa800;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.login {
+    color: #ffa800;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.ul-list {
+    margin-right: 40px;
+}

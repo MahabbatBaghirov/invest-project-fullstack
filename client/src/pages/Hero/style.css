@@ -1,0 +1,72 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://preview.colorlib.com/theme/invest/images/home_slider_1.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+.hero::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0,0,0,.9); */
+    z-index: 1;
+}
+
+.ttext {
+    width: 880px;
+    height: 366px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(17,16,14,0.83);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-title {
+    color: #fff;
+    font-size: 72px;
+    margin: 0 0 8px;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+.p-title {
+    width: 72%;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: 'gill', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1.6em !important;
+}
+
+.btn {
+    width: 174px;
+    height: 59px;
+    background-color: #ffa800;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #ffa800;
+    cursor: pointer;
+}
